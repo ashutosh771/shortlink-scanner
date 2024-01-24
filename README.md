@@ -53,11 +53,7 @@ Example 1 -
 
 python3 scanner.py -l targets.txt -m 200 -o out.txt (save only URLs with 200 response code to out.txt)
 
-Example 2 - 
-
 python3 scanner.py -l targets.txt -m 200 --params-only (save only URLs with parameters)
-
-Example 3 - 
 
 python3 scanner.py -l targets.txt -d 2 -t 30 --random-agents (add 2 second delay between each requests, threads=30, use random agents for each request) 
 
