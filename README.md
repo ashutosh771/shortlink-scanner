@@ -49,7 +49,7 @@ python3 shorturl_scanner.py -l <input_file> [options]
 --time-out (optional): Timeout in seconds for each request (default is 15 seconds).<br>
 
 
-Example 1 - 
+Examples -
 
 python3 scanner.py -l targets.txt -m 200 -o out.txt (save only URLs with 200 response code to out.txt)
 
