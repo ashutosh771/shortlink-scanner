@@ -12,6 +12,7 @@
 ShortLink-Scanner is a powerful tool designed for expanding and analyzing shortened URLs. It provides insights into the final destination of shortened links, filters URLs with parameters, and 200 HTTP response code. 
 
 ### Features
+<br>
 URL Expansion: Converts shortened URLs to their full form, revealing the full path.
 
 Parameter Detection: Identifies URLs that contain query parameters.
@@ -23,3 +24,22 @@ User-Agent Randomization: Option to use a random User-Agent for each request to 
 Multi-Threading Support: Speeds up the process by handling multiple URLs in parallel.
 
 Request Delay and Timeout: Introduce delay between requests (for steealth) and a timeout feature to skip unresponsive URLs.
+
+<br>
+### Usage
+
+python3 scanner.py -l targets.txt
+
+OR
+
+python3 scanner.py -l targets.txt -m 200 -o out.txt (save only URLs with 200 response code to out.txt)
+
+OR
+
+python3 scanner.py -l targets.txt -m 200 --params-only (save only URLs with parameters)
+
+OR
+
+python3 scanner.py -l targets.txt -d 2 -t 30 --random-agents (add 2 second delay between each requests, threads=30, use random agents for each request) 
+
+
