@@ -37,17 +37,27 @@ pip3 install -r requirements.txt
 
 ### Usage
 
-python3 scanner.py -l targets.txt
+python3 shorturl_scanner.py -l <input_file> [options]
 
-OR
+-l, --input_file (required): File containing the list of shortened URLs.
+-m, --http_status (optional): HTTP status code to filter the URLs.
+-t, --threads (optional): Number of threads (default is 10).
+-o, --output_file (optional): Output file name (default is out_long_urls.txt).
+-p, --params-only (optional): Filter for URLs that contain parameters.
+--random-agent (optional): Use a random user agent for each request.
+-d, --delay (optional): Delay between requests in seconds.
+--time-out (optional): Timeout in seconds for each request (default is 15 seconds).
+
+
+Example 1 - 
 
 python3 scanner.py -l targets.txt -m 200 -o out.txt (save only URLs with 200 response code to out.txt)
 
-OR
+Example 2 - 
 
 python3 scanner.py -l targets.txt -m 200 --params-only (save only URLs with parameters)
 
-OR
+Example 3 - 
 
 python3 scanner.py -l targets.txt -d 2 -t 30 --random-agents (add 2 second delay between each requests, threads=30, use random agents for each request) 
 
