@@ -9,7 +9,7 @@
 
 ### Introduction
 
-ShortLink-Scanner is a powerful tool designed for expanding and analyzing shortened URLs. It provides insights into the final destination of shortened links, filters URLs with parameters, and 200 HTTP response code. 
+ShortLink-Scanner is a powerful tool designed for expanding and analyzing shortened URLs. It provides insights into the final destination of shortened links, filters URLs with parameters, and specific HTTP response codes. 
 
 ### Features
 <br>
