@@ -25,7 +25,7 @@ Multi-Threading Support: Speeds up the process by handling multiple URLs in para
 
 Request Delay and Timeout: Introduce delay between requests (for steealth) and a timeout feature to skip unresponsive URLs.
 
-<br>
+
 ### Usage
 
 python3 scanner.py -l targets.txt
