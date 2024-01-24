@@ -39,14 +39,14 @@ pip3 install -r requirements.txt
 
 python3 shorturl_scanner.py -l <input_file> [options]
 
--l, --input_file (required): File containing the list of shortened URLs.
--m, --http_status (optional): HTTP status code to filter the URLs.
--t, --threads (optional): Number of threads (default is 10).
--o, --output_file (optional): Output file name (default is out_long_urls.txt).
--p, --params-only (optional): Filter for URLs that contain parameters.
---random-agent (optional): Use a random user agent for each request.
--d, --delay (optional): Delay between requests in seconds.
---time-out (optional): Timeout in seconds for each request (default is 15 seconds).
+-l, --input_file (required): File containing the list of shortened URLs. <br>
+-m, --http_status (optional): HTTP status code to filter the URLs. <br>
+-t, --threads (optional): Number of threads (default is 10).<br>
+-o, --output_file (optional): Output file name (default is out_long_urls.txt).<br>
+-p, --params-only (optional): Filter for URLs that contain parameters.<br>
+--random-agent (optional): Use a random user agent for each request.<br>
+-d, --delay (optional): Delay between requests in seconds.<br>
+--time-out (optional): Timeout in seconds for each request (default is 15 seconds).<br>
 
 
 Example 1 - 
