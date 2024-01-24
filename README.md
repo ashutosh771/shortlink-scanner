@@ -25,6 +25,15 @@ Multi-Threading Support: Speeds up the process by handling multiple URLs in para
 
 Request Delay and Timeout: Introduce delay between requests (for steealth) and a timeout feature to skip unresponsive URLs.
 
+### Installation 
+
+Ensure you have Python 3.x installed on your system.
+
+Clone this repository or download the script directly.
+
+Install the required dependencies: 
+
+pip3 install -r requirements.txt
 
 ### Usage
 
