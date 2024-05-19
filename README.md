@@ -37,7 +37,7 @@ pip3 install -r requirements.txt
 
 ### Usage
 
-python3 shorturl_scanner.py -l <input_file> [options]
+python3 scanner.py -l <input_file> [options]
 
 -l, --input_file (required): File containing the list of shortened URLs. <br>
 -m, --http_status (optional): HTTP status code to filter the URLs. <br>
