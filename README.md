@@ -9,7 +9,9 @@
 
 ### Introduction
 
-ShortLink-Scanner is a powerful tool designed for expanding and analyzing shortened URLs. It provides insights into the final destination of shortened links, filters URLs with parameters, and specific HTTP response codes. 
+Shortlinks can be dangerous! ShortLink-Scanner is a powerful tool designed for expanding and analyzing shortened URLs. It provides insights into the final destination of shortened links, filters URLs with parameters, and specific HTTP response codes. This tool can accepts large number of shortlinks and finds potential shortlinks that are leaking sensitive information. 
+
+Example - shortlink  https://someba.nk/XYZ3 ----becomes---> https://api.examplebank.com/customerDocs/statements/getStatementById?docID=abchd453fjrk42k1
 
 ### Features
 <br>
@@ -27,7 +29,7 @@ Request Delay and Timeout: Introduce delay between requests (for steealth) and a
 
 ### Installation 
 
-Ensure you have Python 3.x installed on your system.
+Ensure you have Python 3.x or later installed on your system.
 
 Clone this repository or download the script directly.
 
