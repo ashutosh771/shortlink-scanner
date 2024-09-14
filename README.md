@@ -11,7 +11,8 @@
 
 Shortlinks can be dangerous! ShortLink-Scanner is a powerful tool designed for expanding and analyzing shortened URLs. It provides insights into the final destination of shortened links, filters URLs with parameters, and specific HTTP response codes. This tool can accepts large number of shortlinks and finds potential shortlinks that are leaking sensitive information. 
 
-Example - shortlink  https://someba.nk/XYZ3 ----becomes---> https://api.examplebank.com/customerDocs/statements/getStatementById?docID=abchd453fjrk42k1
+Example - shortlink  https://someba.nk/XYZ3 ----becomes---> https://api.someebank.com/customerDocs/statements/getStatementById?docID=abchd453fjrk42k1
+
 
 ### Features
 <br>
