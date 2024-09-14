@@ -7,6 +7,8 @@
 
 <h4 align="center">Find secrets from short URLs</h4>
 
+<a href="https://github.com/ashutosh771/shortlink-scanner"><img src="https://github.com/ashutosh771/shortlink-scanner/blob/main/shortlink-scanner-logo.png" alt="ShortLink scanner logo" style="max-width: 100%;"></a>
+
 ### Introduction
 
 Shortlinks can be dangerous! ShortLink-Scanner is a powerful tool designed for expanding and analyzing shortened URLs. It provides insights into the final destination of shortened links, filters URLs with parameters, and specific HTTP response codes. This tool can accepts large number of shortlinks and finds potential shortlinks that are leaking sensitive information. 
